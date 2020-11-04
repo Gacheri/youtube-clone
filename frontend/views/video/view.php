@@ -13,9 +13,9 @@ use yii\helpers\Url;
 
 ?>
 <div class="row">
-    <div class="col-sm-12" style="margin-top:10px">
+    <div class="col-sm-6" style="margin:50px">
         <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item"
+            <video class="embed-responsive-item" style="width:100%"
                    poster="<?php echo $model->getThumbnailLink() ?>"
                    src="<?php echo $model->getVideoLink() ?>"
                    controls></video>
